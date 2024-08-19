@@ -7,15 +7,64 @@
 * git log --decorate =full   //commit history with additional info
 *                    =no
 *                    =short 
+
+
 * git log --oneline   //compact commit history
 * git log --oneline --graph --all   //full commit & branch history//
 * git log --graph
 * git log --all
-* 
-*
+ 
+
 * git merge <branch_to_merge>  //no merge commit created//  //must be on the branch into which we are going to merge//
 * git commit --amend -m "new commit message""   //amend old commit message with the new message//
 * git branch -D <branch_name> //delete selected branch//
 * git log --grep=<text_input_from_commit_message>  //will search for matching words inside commit messages//
 * git reset --soft <commit-hash>  //will return you back from the current commit to the commit with the hash provided 
+
+
 * git checkout <commit-hash> -- file_name.md  //will checkout file from the tree  that is if you want previous version file, unmodified, etc
+* git checkout <commit-hash> -- path/to/file_name.md.   //include relative path if file is within the folder
+* git ls-tree -r <commit-hash>   //list the files in the commit if you want to confirm that particular file is there
+* git rm <file_name>  //Stage the deletion, when you delete a file, you must explicitly tell Git that you want this change (the deletion) to be tracked
+
+
+
+* //To enable remote tracking for your branch  
+ //navigate to the root of your repository using cd path/to/your/repo before running the command.
+* Check your current remotes: Use git remote -v to see if your repository is already linked to a remote.
+* Add a remote if not present: git remote add origin <remote-repo-URL>
+* Push the branch to the remote: git push origin <branch-name>
+* Set up tracking: Usually, pushing to a remote with git push will automatically set up tracking.
+  If needed, manually configure tracking with: git branch --set-upstream-to=origin/<branch-name> <branch-name>
+
+
+* //a step-by-step approach to link your local repository with the new GitHub repository and start committing:
+*  Initialize Git in your local folder (if not already done):
+   git init
+
+* Add the GitHub repository as a remote:
+  git remote add origin <remote-repo-URL>
+
+* Add and commit your changes:
+  git add .
+  git commit -m "Initial commit"
+
+* Push your changes to GitHub:
+  git push -u origin main   //Substitute main with whatever your main branch is named if it’s different//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
