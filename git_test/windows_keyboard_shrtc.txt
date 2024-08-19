@@ -1,0 +1,11 @@
+# keyboard shortcuts for effective keyboard use
+
+* alt + f4  //close all, shutdown computer
+* logo + tab //open task view
+* alt + tab // switch between open apps
+* ctrl + t //open new tab
+* ctrl + w // close current tab
+* ctrl + r // refresh current tab
+* ctrl + l // jump to address bar
+* ctrl + e // jump to search option
+* ctrl + tab // switch between open tabs
