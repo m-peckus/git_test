@@ -60,3 +60,32 @@
 * create .gitignore file in your repository (location specific -- won't affect folders outside the scope of your current repository)
 * add directory name (the one you want to ignore) to .gitignore file (example bookbot/ )
 * This tells Git to ignore the entire bookbot directory and all of its contents.
+
+#  If can't push commit messages etc... because:
+#  "Updates were rejected because the tip of your current branch is behind
+#   Here is how you can resolve this issue:
+
+1. Fetch the latest changes from the remote repository
+   git fetch  // This command retrieves the changes from the remote repository but doesn't merge them yet.
+
+2. Merge the fetched changes into your local branch
+   git merge origin/main  // Replace main with the name of your branch if it's different.
+
+3. Resolve any merge conflicts
+   // If there are conflicts, you'll need to resolve them manually in the files, then stage the resolved files
+   git add <file_name>
+
+4. Commit the merge:
+  // You might have to commit the merged changes if there were conflicts:
+  git commit -m "Resolve merge conflicts"
+
+5. Push the updated branch to the remote repository:
+   git push origin main
+  //Again, replace main with your actual branch name if needed
+  
+
+
+
+
+
+
