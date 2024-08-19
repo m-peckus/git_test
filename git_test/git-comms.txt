@@ -26,10 +26,13 @@
 * git checkout <commit-hash> -- path/to/file_name.md.   //include relative path if file is within the folder
 * git ls-tree -r <commit-hash>   //list the files in the commit if you want to confirm that particular file is there
 * git rm <file_name>  //Stage the deletion, when you delete a file, you must explicitly tell Git that you want this change (the deletion) to be tracked
+* // If you've already deleted the file from your file system, you can just use: git add <file_name>
+* // Push the commit to the remote repository: Finally, update the remote repository on GitHub with the changes: git push origin main
 
 
 
-* //To enable remote tracking for your branch  
+
+* //TO ENABLE REMOTE TRACKING FOR YOUR BRANCH 
  //navigate to the root of your repository using cd path/to/your/repo before running the command.
 * Check your current remotes: Use git remote -v to see if your repository is already linked to a remote.
 * Add a remote if not present: git remote add origin <remote-repo-URL>
@@ -37,8 +40,8 @@
 * Set up tracking: Usually, pushing to a remote with git push will automatically set up tracking.
   If needed, manually configure tracking with: git branch --set-upstream-to=origin/<branch-name> <branch-name>
 
-
-* //a step-by-step approach to link your local repository with the new GitHub repository and start committing:
+* // A STEP-BY-STEP APPROACH TO LINK YOUR LOCAL REPOSITORY WITH THE NEW GITHUB REPOSITORY AND START COMMITTING
+* //
 *  Initialize Git in your local folder (if not already done):
    git init
 
@@ -50,21 +53,10 @@
   git commit -m "Initial commit"
 
 * Push your changes to GitHub:
-  git push -u origin main   //Substitute main with whatever your main branch is named if it’s different//
+  git push -u origin main   //Substitute main with whatever your main branch is named if it’s different/
+ 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*// SETTING .GITIGNORE
+* create .gitignore file in your repository (location specific -- won't affect folders outside the scope of your current repository)
+* add directory name (the one you want to ignore) to .gitignore file (example bookbot/ )
+* This tells Git to ignore the entire bookbot directory and all of its contents.
