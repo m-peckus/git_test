@@ -1,0 +1,41 @@
+# Here are a few ways to find beginner-friendly open source projects:
+
+* GitHub Explore: Visit GitHub Explore for a curated list of trending repositories and topics. 
+  Often you'll find projects tagged with good first issue or help wanted which are typically more welcoming for new contributors.
+
+* First Contributions: Check out the First Contributions project,which offers a list of beginner-friendly projects
+  as well as a tutorial on how to make your first contribution
+
+* Open Source Friday: Explore Open Source Friday to find a variety of projects and events designed to encourage open source contribution.
+
+* Search for specific hashtags and labels:
+  Use search filters on platforms like GitHub, GitLab, and Bitbucket.
+  Look for labels like good first issue, beginner-friendly, or first-timers-only.
+
+* Community Forums: Join online forums or communities related to a technology you’re interested in.
+  Platforms like Reddit, Dev.to, or the open source Slack group can offer suggestions for projects seeking help
+
+# Here are a few suggestions for open source projects where you can use Python and learn more about APIs:
+
+* HTTPie: This is a user-friendly command-line HTTP client.
+  It's open source and could be a great way to dive into understanding HTTP requests and responses.
+  You can find it on GitHub by searching for httpie
+
+* Django REST Framework:
+  While it's a bit larger, contributing to the Django REST Framework might expose you to API projects at a grand scale.
+  You could start by looking for issues labeled as good first issue.
+
+* OpenWeatherMap Python API:
+  While not a project in itself, you can practice by writing scripts to interact with third-party APIs like OpenWeatherMap.
+  Many developers build small open source projects that consume these APIs.
+
+* Python Client for Creative APIs:
+  Often developers create Python libraries to interact with APIs like Spotify, Twitter, or NASA.
+  These projects are usually welcoming to newcomers who want to tackle bugs or write documentation.
+
+* Public APIs Project:
+  Find a list of public APIs here (https://github.com/public-apis/public-apis)
+  And consider contributing to projects that offer Python scripts or libraries for interacting with these APIs.
+
+ // Starting with the right project can make all the difference.
+    Keep an eye on issues tagged for beginners (good first issue) and try to read through the contributor guidelines
