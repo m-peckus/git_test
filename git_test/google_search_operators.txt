@@ -1,0 +1,69 @@
+# Google Advanced Search Operators
+
+    #  MATCHING OPERATORS
+
+* " " exact match  //tutorial "Python"
+*  *  wild card  //represent unknown characters in a search// Torvalds*Linux
+*  -  exclude from search // app tutorial "Python" -Java
+*  AROUND(X)  //number of words between search words // memory AOUND(2) computer
+
+    # RANGE OPERATORS
+
+* after:
+* before:
+* ...  // top7 ... 10 facts about Linux
+
+    # SOURCE OPERATORS
+
+* site:  // OOP Python site:mit.edu
+* source: // Amazon source:ft.com
+* cache: // Last cache of a website (if resource is down)
+* location: // Find something from a certain location in Google's search results // hotel near me location:Zurich
+* filetype: // The Pragmatic Programmer filetype:pdf
+* blogurl: //need to search more on how it can be used
+
+   # BOOLEAN OPERATORS
+
+* OR  // Battle of Horn OR Battle of Manassas  // will show results related to both
+* AND // will include both searches  // this AND this
+* | // or operator
+
+   # IN/ALLIN
+
+* text: //intext:tutorial
+* title:
+* url:
+* anchor
+
+  # UTILITY OPERATORS
+
+* define:
+* related:
+* $:
+* X in Y
+* weather:
+* movie:
+* stocks:
+* map:
+* @name:
+
+# some examples of possible combinations
+
+  how to build an * app site:freecodecamp.org -flutter
+			site:freecodecamp.org -inurl:blog
+
+  "python * tutorial"
+  (this OR this OR this) -something
+  python AND (javascript OR typescript)
+
+
+# REVERSE IMAGE SEARCH  Find similar matches
+*  images.google.com
+
+# Specialized Search Engines
+*  Google Scholar  https://scholar.google.com
+*  Google Patents  https://patents.google.com
+
+
+
+
