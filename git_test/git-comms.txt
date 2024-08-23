@@ -7,6 +7,7 @@
 * git log --decorate =full   //commit history with additional info
 *                    =no
 *                    =short 
+* git config --get init.defaultbranch  //will show default branch configuration
 
 
 * git log --oneline   //compact commit history
@@ -20,6 +21,9 @@
 * git branch -D <branch_name> //delete selected branch//
 * git log --grep=<text_input_from_commit_message>  //will search for matching words inside commit messages//
 * git reset --soft <commit-hash>  //will return you back from the current commit to the commit with the hash provided 
+
+DELETE COMMIT FOREVER
+* git reset --hard <commit-hash>  //will delete everything that is after that commit.It will be lost/deleted forever
 
 
 * git checkout <commit-hash> -- file_name.md  //will checkout file from the tree  that is if you want previous version file, unmodified, etc
@@ -84,6 +88,27 @@
   //Again, replace main with your actual branch name if needed
   
 
+ADD REMOTE REPOSITORY TO YOUR LOCAL REPOSITORY
+* git remote add <new-remote-name> <remote-url>
+
+CHECK YOUR REMOTES 
+* git remote -v
+
+PUSH OR PULL FROM A SPECIFIS REMOTE
+* git push <remote-name> <branch-name>
+* git pull <remote-name> <branch-name>
+
+RENAME THE EXISTING REMOTE
+* git remote rename <old-remote-name> <new-remote-name>
+
+CHECK REMOTE EXISTANCE:
+To confirm that the repository you want to fetch from exists
+* git ls-remote https://github.com/user/repo.git
+
+SUMMARY:
+Use git ls-remote to ensure the repository exists and is accessible.
+Add the accessible repository as a remote using git remote add.
+Fetch information from the new remote using git fetch.
 
 
 

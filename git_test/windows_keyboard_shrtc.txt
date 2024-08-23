@@ -7,5 +7,5 @@
 * ctrl + w // close current tab
 * ctrl + r // refresh current tab
 * ctrl + l // jump to address bar
-* ctrl + e // jump to search option
+* ctrl + e // jump to search option with Google
 * ctrl + tab // switch between open tabs
