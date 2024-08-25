@@ -1,0 +1,16 @@
+# Create repo on remote and connect to local environment
+
+1. Create new repository on Github
+2. Create local folder on your computer
+3. Inside this new folder run  git clone <url// to-new-github-repository>
+4. you now have a copy on your computer of a remote repository
+
+
+if you need to:
+// instal GIT:
+    sudo apt install git
+
+// instal the Github CLI
+// use the Github CLI to configure to use your Github credentials
+// sign to VS Code with Github
+// create new folder and follow steps 1 to 4 listed above
