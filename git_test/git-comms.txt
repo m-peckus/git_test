@@ -105,12 +105,21 @@ CHECK REMOTE EXISTANCE:
 To confirm that the repository you want to fetch from exists
 * git ls-remote https://github.com/user/repo.git
 
+CHECK COMMIT HISTORY OF A REMOTE REPOSITORY
+* git log remote_name/branch_name
+
 SUMMARY:
 Use git ls-remote to ensure the repository exists and is accessible.
 Add the accessible repository as a remote using git remote add.
 Fetch information from the new remote using git fetch.
 
 
+# CLONE //create remote repo & clone to your computer
 
+1. create repo on Github
+2. create empty directory on your computer
+3. inside this empty directory run  git clone <url//repo-to-clone>
+4. git will create a new folder with the same name as repository you are cloning, inside you will find cloned repository
+5. you can now access this repository from your computer, modify/create files and push changes back to remote on Github
 
 
