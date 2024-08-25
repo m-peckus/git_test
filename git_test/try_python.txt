@@ -1,0 +1,5 @@
+# Try to implement in Pyhton
+
+def add_course(self, course_name, score):
+    letter_grade = self.calculate_letter_grade(score)
+    self.__courses[course_name] = letter_grade
