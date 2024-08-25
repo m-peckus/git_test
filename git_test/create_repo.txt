@@ -14,3 +14,4 @@ if you need to:
 // use the Github CLI to configure to use your Github credentials
 // sign to VS Code with Github
 // create new folder and follow steps 1 to 4 listed above
+// sync repo with VS Code & local file system
