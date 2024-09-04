@@ -34,6 +34,12 @@ DELETE COMMIT FOREVER
 * // Push the commit to the remote repository: Finally, update the remote repository on GitHub with the changes: git push origin main
 
 
+* // To install GIT CLI go here https://github.com/cli/cli#installation
+* // One quick and easy installation method is to use Webi by simply running:
+     curl -sS https://webi.sh/gh | sh
+* // Then make sure you're authenticated by running this command to login through your browser:
+
+    gh auth login
 
 
 * //TO ENABLE REMOTE TRACKING FOR YOUR BRANCH 
