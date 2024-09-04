@@ -70,8 +70,10 @@ DELETE COMMIT FOREVER
 #   Here is how you can resolve this issue:
 
 1. Fetch the latest changes from the remote repository
+   As your first step you use git clone to copy/import remote repo to your local file system. 
+   And you use git fetch to update it with latest changes
    git fetch  // This command retrieves the changes from the remote repository but doesn't merge them yet.
-
+   
 2. Merge the fetched changes into your local branch
    git merge origin/main  // Replace main with the name of your branch if it's different.
 
