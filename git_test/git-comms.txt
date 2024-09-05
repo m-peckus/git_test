@@ -131,4 +131,19 @@ Fetch information from the new remote using git fetch.
 5. you can now access this repository from your computer, modify/create files and push changes back to remote on Github
 6. remove repository  rm -rf repo-name
 
+#   STEPS TO CREATE AND PUSH A NEW BRANCH
 
+1. Create the Local Branch: // Creating a branch locally does not make it available on the remote until you push it.//
+
+   git switch -c new_branch_name
+
+  This creates a new local branch named new_branch_name and switches to it. 
+  It's similar to git checkout -b new_branch_name
+
+2. Push the Branch to the Remote:
+   To make this branch available on a remote repository (e.g., origin), you need to explicitly push it:
+
+   git push -u origin new_branch_name
+
+   The -u option sets uptracking, which means your local branch will track the remote branch, 
+   allowing you to use git pull and git push without specifying the remote and branch name in the future.
