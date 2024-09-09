@@ -17,6 +17,9 @@
  
 
 * git merge <branch_to_merge>  //no merge commit created//  //must be on the branch into which we are going to merge//
+  // after you create new branch you must run this command to import latest changes from your remote repo,
+   otherwise they are not vissible //
+
 * git commit --amend -m "new commit message""   //amend old commit message with the new message//
 * git branch -D <branch_name> //delete selected branch//
 * git log --grep=<text_input_from_commit_message>  //will search for matching words inside commit messages//
