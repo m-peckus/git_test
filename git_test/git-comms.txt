@@ -150,3 +150,12 @@ Fetch information from the new remote using git fetch.
 
    The -u option sets uptracking, which means your local branch will track the remote branch, 
    allowing you to use git pull and git push without specifying the remote and branch name in the future.
+
+## Pull request in 5 steps
+ 1. Create a new branch for pull request
+ 2. Make changes in your project files
+ 3. Add changes git add .
+ 4. Commit changes with git commit -m 'commit message'
+ 5. Create pull request in your GitHub repository with git push origin/branch_name
+ 6. Review your pull request on GitHub
+
