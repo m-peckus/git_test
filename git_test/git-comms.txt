@@ -21,6 +21,7 @@
    otherwise they are not vissible //
 * git merge remote_repo/branch_name  //merge remote branch to your local repo branch
 
+* git pull remote_name/branch_name  //pull changes from remote to local 
 
 * git commit --amend -m "new commit message""   //amend old commit message with the new message//
 * git branch -D <branch_name> //delete selected branch//
@@ -30,10 +31,12 @@
 
 DELETE COMMIT FOREVER
 * git reset --hard <commit-hash>  //will delete everything that is after that commit.It will be lost/deleted forever
-
+ABORT STAGED CHANGES
+* git reset
 
 * git checkout <commit-hash> -- file_name.md  //will checkout file from the tree  that is if you want previous version file, unmodified, etc
 * git checkout <commit-hash> -- path/to/file_name.md.   //include relative path if file is within the folder
+* git checkou -- .  //discard unstaged changes
 * git ls-tree -r <commit-hash>   //list the files in the commit if you want to confirm that particular file is there
 * git rm <file_name>  //Stage the deletion, when you delete a file, you must explicitly tell Git that you want this change (the deletion) to be tracked
 * // If you've already deleted the file from your file system, you can just use: git add <file_name>
