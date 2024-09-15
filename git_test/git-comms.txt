@@ -34,6 +34,27 @@ DELETE COMMIT FOREVER
 ABORT STAGED CHANGES
 * git reset
 
+VIEW PREVIOUS VERSION:
+
+* git log --all --graph
+* git checkout <commit hash>
+* git checkout <branch-name>
+
+
+RESTORE PREVIOUS VERSION:
+
+*  git checkout <hash/branch> <file/folder>
+*  git checkout <commit hash> .  (restore all inside current folder and subfolders)
+*  git commit -m 'Message'
+
+CONFIG ALIASES FOR GIT COMMANDS:
+
+* git config --global alias.s 'status' (git s  will work same as git status)
+* git config --globas alias.cm 'commit -m' (git cm will work same as git commit -m)
+
+DELETE GIT TRACKING:
+* rm -R .git (delete .git file)
+
 * git checkout <commit-hash> -- file_name.md  //will checkout file from the tree  that is if you want previous version file, unmodified, etc
 * git checkout <commit-hash> -- path/to/file_name.md.   //include relative path if file is within the folder
 * git checkou -- .  //discard unstaged changes
